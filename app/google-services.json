@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "562849996444",
+    "firebase_url": "https://stay-safe-ca8d9.firebaseio.com",
+    "project_id": "stay-safe-ca8d9",
+    "storage_bucket": "stay-safe-ca8d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562849996444:android:7d28000fea301fdd",
+        "android_client_info": {
+          "package_name": "com.example.sojal.staysafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562849996444-nk296o76c2c5dt4l5jve8aqnbqfsedfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW4UwV5MezIVpgEWVrv9mpPYFc8wdwUNU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

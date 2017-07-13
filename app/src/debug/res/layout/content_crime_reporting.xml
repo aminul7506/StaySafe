@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_crime_reporting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sojal.staysafe.CrimeReporting"
+    tools:showIn="@layout/activity_crime_reporting">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.jjoe64.graphview.GraphView
+                android:layout_width="match_parent"
+                android:layout_height="420dp"
+                android:id="@+id/graph" />
+
+            <TextView
+                android:text="In X-axis crime name according to following number\n1.acid throwing 2.blackmail 3.bomb threat 4.death threat\n5.domestic violence 6.fraud 7.killing 8.obscene phone call\n9.reckless burning 10.robbery 11.theft 12.threat 13.others\nIn Y-axis number of each crimes"
+                android:layout_width="match_parent"
+                android:textSize="12dp"
+                android:layout_marginLeft="15dp"
+                android:elevation="5dp"
+                android:layout_below="@id/graph"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6" />
+        </android.support.design.widget.TextInputLayout>
+    </RelativeLayout>
+
+</ScrollView>

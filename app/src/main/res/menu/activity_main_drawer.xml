@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/reported_Crimes"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="Reported Crimes" />
+
+        <item
+            android:id="@+id/report_a_Crime"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="Report a Crime" />
+
+        <item
+            android:id="@+id/crime_in_your_area"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="Crimes in your area" />
+
+        <item
+            android:id="@+id/nearbyThana"
+            android:icon="@mipmap/police"
+            android:title="Nearby Police Station" />
+
+        <item
+            android:id="@+id/nearbyHospital"
+            android:icon="@drawable/ic_local_hospital_black_24dp"
+            android:title="Nearby Hospitals" />
+
+        <item
+            android:id="@+id/nearbyFriends"
+            android:icon="@drawable/ic_frnds_black_24dp"
+            android:title="Nearby Friends" />
+
+
+        <item
+            android:id="@+id/connectWithNearbyFriends"
+            android:icon="@drawable/ic_friends_add_black_24dp"
+            android:title="Connect With Friends" />
+
+        <item
+            android:id="@+id/contactList"
+            android:icon="@drawable/ic_contact_mail_black_24dp"
+            android:title="Contact List" />
+
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/ic_sms_black_24dp"
+            android:title="Notifications" />
+
+        <item
+            android:id="@+id/crime_Statistics"
+            android:icon="@drawable/ic_local_atm_black_24dp"
+            android:title="Crime Statistics(Type)" />
+        <item
+            android:id="@+id/crime_Statistics_time"
+            android:icon="@drawable/ic_local_atm_black_24dp"
+            android:title="Crime Statistics(Time)" />
+
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/terms_conditions"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="Terms and Conditions" />
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_person_outline_black_24dp"
+                android:title="Log In" />
+            <item
+                android:id="@+id/nav_signIn"
+                android:icon="@drawable/ic_accessibility_black_24dp"
+                android:title="Create Account" />
+        </menu>
+    </item>
+
+</menu>

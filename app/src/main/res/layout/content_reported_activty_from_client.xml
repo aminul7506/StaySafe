@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_reported_activty_from_client"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sojal.staysafe.ReportedActivtyFromClient"
+    tools:showIn="@layout/activity_reported_activty_from_client">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:maxLines="1"
+                android:elevation="5dp"
+                android:layout_marginLeft="15dp"
+                android:hint="Date (DD-MM-YYYY)"
+                android:textColorLink="@color/colorPrimary"
+                android:singleLine="true"
+                android:id="@+id/date" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:maxLines="1"
+                android:elevation="5dp"
+                android:layout_marginLeft="15dp"
+                android:hint="Time(00:00 am/pm)"
+                android:textColorLink="@color/colorPrimary"
+                android:singleLine="true"
+                android:id="@+id/time" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:elevation="5dp"
+                android:layout_marginLeft="15dp"
+                android:hint="Title of the Problem"
+                android:clickable="true"
+                android:maxLines="1"
+                android:textColorLink="@color/colorPrimary"
+                android:id="@+id/title" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:ems="10"
+                android:maxLines="20"
+                android:elevation="5dp"
+                android:layout_marginLeft="15dp"
+                android:hint="Problem Description"
+                android:textColorLink="@color/colorPrimary"
+                android:singleLine="true"
+                android:id="@+id/problem_description" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:elevation="5dp"
+                android:layout_marginLeft="15dp"
+                android:hint="Location(Location name,District)"
+                android:textColorLink="@color/colorPrimary"
+                android:id="@+id/location" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:text="Post Report"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/postReport"
+            style="?android:textAppearanceSmall"
+            android:elevation="5dp"
+            android:textSize="15dp"
+            android:paddingLeft="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <fragment
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/map1"
+            android:visibility="gone"
+            android:name="com.google.android.gms.maps.SupportMapFragment"/>
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:color="#FFFFFA"
+    tools:context="com.example.sojal.staysafe.SignIn">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="Create a Free Account"
+            android:layout_width="match_parent"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:elevation="5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textColor="@color/cast_expanded_controller_background_color" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:singleLine="true"
+            android:elevation="5dp"
+            android:hint="First Name"
+            android:maxLines="1"
+            android:id="@+id/firstName"
+            android:textColorLink="@color/colorPrimary" />
+    </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:elevation="5dp"
+            android:maxLines="1"
+            android:layout_marginLeft="15dp"
+            android:hint="Surname"
+            android:ems="10"
+            android:singleLine="true"
+            android:id="@+id/surName"
+            android:textColorLink="@color/colorPrimary"
+             />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:maxLines="1"
+            android:hint="Email"
+            android:layout_marginLeft="15dp"
+            android:elevation="5dp"
+            android:singleLine="true"
+            android:id="@+id/email"
+            android:textColorLink="@color/colorPrimary" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:maxLines="1"
+            android:layout_marginLeft="15dp"
+            android:hint="Phone Number"
+            android:id="@+id/phone"
+            android:singleLine="true"
+            android:elevation="5dp"
+            android:textColorLink="@color/colorPrimary" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:maxLines="1"
+            android:elevation="5dp"
+            android:layout_marginLeft="15dp"
+            android:hint="Date of Birth(DD-MM-YYYY)"
+            android:textColorLink="@color/colorPrimary"
+            android:singleLine="true"
+            android:id="@+id/dateOfBirth" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password(At least 8 characters)"
+            android:ems="10"
+            android:layout_marginLeft="15dp"
+            android:elevation="5dp"
+            android:id="@+id/password"
+            android:imeActionId="@+id/p1"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColorLink="@color/colorPrimary" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginLeft="15dp"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:elevation="5dp"
+            android:id="@+id/confirmPassword"
+            android:imeActionId="@+id/p2"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColorLink="@color/colorPrimary" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/sex"
+                android:orientation='horizontal'>
+
+                <RadioButton
+                    android:text="Female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/female"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:text="Male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/male"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:text="By clicking Create Account, you agree to our Terms and confirm that you have read our Data Policy\n"
+            android:layout_width="match_parent"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:elevation="5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6" />
+    </android.support.design.widget.TextInputLayout>
+        <Button
+            android:text="Create Account"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/createAccount"
+            style="?android:textAppearanceSmall"
+            android:elevation="5dp"
+            android:textSize="15dp"
+            android:paddingLeft="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</ScrollView>

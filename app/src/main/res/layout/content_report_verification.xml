@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_report_verification"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sojal.staysafe.ReportVerificationActivity"
+    tools:showIn="@layout/activity_report_verification">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:elevation="5dp"
+                android:text="Reporter's Name : "
+                android:maxLines="2"
+                android:id="@+id/name"
+                android:editable="false"
+                android:textColorLink="@color/colorPrimary" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:singleLine="true"
+                android:elevation="5dp"
+                android:text="Gender : "
+                android:maxLines="1"
+                android:id="@+id/gender"
+                android:editable="false"
+                android:textColorLink="@color/colorPrimary" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:singleLine="true"
+                android:elevation="5dp"
+                android:text="Mobile : "
+                android:maxLines="1"
+                android:id="@+id/mobile"
+                android:editable="false"
+                android:textColorLink="@color/colorPrimary" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:singleLine="true"
+                android:elevation="5dp"
+                android:text="Age : "
+                android:maxLines="1"
+                android:id="@+id/age"
+                android:editable="false"
+                android:textColorLink="@color/colorPrimary" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:singleLine="true"
+            android:elevation="5dp"
+            android:text="Title : "
+            android:maxLines="1"
+            android:id="@+id/title"
+            android:editable="false"
+            android:textColorLink="@color/colorPrimary" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:singleLine="true"
+            android:elevation="5dp"
+            android:text="Date : "
+            android:maxLines="1"
+            android:id="@+id/date"
+            android:editable="false"
+            android:textColorLink="@color/colorPrimary" />
+    </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:singleLine="true"
+                android:elevation="5dp"
+                android:text="Time : "
+                android:maxLines="1"
+                android:id="@+id/time"
+                android:editable="false"
+                android:textColorLink="@color/colorPrimary" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:elevation="5dp"
+                android:text="Location : "
+                android:maxLines="3"
+                android:id="@+id/location"
+                android:editable="false"
+                android:textColorLink="@color/colorPrimary" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:elevation="5dp"
+                android:text="Description : "
+                android:maxLines="6"
+                android:id="@+id/description"
+                android:editable="false"
+                android:textColorLink="@color/colorPrimary" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:text="Delete"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/delete"
+            style="?android:textAppearanceSmall"
+            android:elevation="5dp"
+            android:textSize="15dp"
+            android:paddingLeft="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:text="Verified"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/verified"
+            style="?android:textAppearanceSmall"
+            android:elevation="5dp"
+            android:textSize="15dp"
+            android:paddingLeft="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:text="Fraud"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/fraud"
+            style="?android:textAppearanceSmall"
+            android:elevation="5dp"
+            android:textSize="15dp"
+            android:paddingLeft="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:text="Mark as Crime Area"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/crimeArea"
+            style="?android:textAppearanceSmall"
+            android:elevation="5dp"
+            android:textSize="15dp"
+            android:paddingLeft="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+</ScrollView>
