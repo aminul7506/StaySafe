@@ -1,8 +1,9 @@
+
 This is an androoid application. This is one of my dream project in my life.
-I have used google api and firebase cloud server for storing users' data
+I have used google api and firebase cloud server for storing users' data.
 There are two parts.
-(i) User Side
-(ii) Police Side
+(i) User Side.
+(ii) Police Side.
 User Side fuctionalities:
 1. User will create account and then log in.
 2. User can report a crime report and the report will store in corresponding thana database.
