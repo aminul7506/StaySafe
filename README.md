@@ -1,4 +1,4 @@
-
+i
 
 
 This is an androoid application. This is one of my dream project in my life.
@@ -18,11 +18,11 @@ User Side fuctionalities:
 8. User can call his nearby friends in an area.
 9. User can see nearby friends location in google map.
 10. User can see all the cimes happened in his area.
-11. user can message to nearby thana if he/she is in danger now.
+11. User can message to nearby thana if he/she is in danger now.
 
 Police Side Functionalities:
 1. Police can log into his thana
 2. Police can see the reported crime in his area and can veirfy it.
 3. Police can track a thief
-4. Polce can send message to a user or can contact with him/her.
+4. Police can send message to a user or can contact with him/her.
 5. Police can see crimes statistics in his/her area.
