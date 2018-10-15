@@ -1,4 +1,5 @@
 
+
 This is an androoid application. This is one of my dream project in my life.
 I have used google api and firebase cloud server for storing users' data.
 There are two parts.
@@ -22,3 +23,4 @@ Police Side Functionalities:
 2. Police can see the reported crime in his area and can veirfy it.
 3. Police can track a thief
 4. Polce can send message to a user or can contact with him/her.
+5. Police can see crimes statistics in his/her area.
