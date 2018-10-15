@@ -1,7 +1,9 @@
 
 
+
 This is an androoid application. This is one of my dream project in my life.
 I have used google api and firebase cloud server for storing users' data.
+I have also used shared preferences, SQLite database, Service, Intent Service and Material Design.
 There are two parts.
 (i) User Side.
 (ii) Police Side.
