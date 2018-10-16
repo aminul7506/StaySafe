@@ -1,9 +1,18 @@
-
+ 
 
 
 This is an android application. This is one of my dream project in my life.
-I have used google api and firebase cloud server for storing users' data.
-I have also used shared preferences, SQLite database, Service, Intent Service and Material Design.
+I have used :
+1. google api
+2. firebase cloud server for storing users' data.
+3. shared preferences
+4. SQLite database
+5. Service 
+6. Intent Service
+7. Material Design
+8. Cloud messaging
+9. Navigation Bar
+10. 
 There are two parts.
 (i) User Side.
 (ii) Police Side.
