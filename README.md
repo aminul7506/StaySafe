@@ -12,7 +12,9 @@ I have used :
 7. Material Design
 8. Cloud messaging
 9. Navigation Bar
-10. 
+10. Card View
+11. Recycler View and many more......
+
 There are two parts.
 (i) User Side.
 (ii) Police Side.
