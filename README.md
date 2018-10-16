@@ -1,6 +1,4 @@
  
-
-
 This is an android application. This is one of my dream project in my life.
 I have used :
 1. google api
@@ -13,7 +11,7 @@ I have used :
 8. Cloud messaging
 9. Navigation Bar
 10. Card View
-11. Recycler View and many more......
+11. Recycler View and many more..........
 
 There are two parts.
 (i) User Side.
