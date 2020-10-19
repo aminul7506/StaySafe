@@ -40,4 +40,4 @@ Police Side Functionality:
 
 
 Screenshot of the application :
-![Alt text](/ScreenShot/Opening page 1.png?raw=true "Title")
+![Alt text](https://github.com/aminul7506/StaySafe/blob/master/ScreenShot/After%20log%20in%205.png?raw=true "Title")
