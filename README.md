@@ -39,7 +39,7 @@ Police Side Functionality:
 5. Police can see crimes statistics in his/her area.
 
 
-Screenshot of the application :
+
 ![App Opening Page](https://github.com/aminul7506/StaySafe/blob/master/ScreenShot/Opening%20page%201.png?raw=true "App Opening Page")
 
 ![App features](https://github.com/aminul7506/StaySafe/blob/master/ScreenShot/App%20features%202.png?raw=true "App Features")
@@ -76,7 +76,8 @@ Screenshot of the application :
 
 ![POlice Side Features](https://github.com/aminul7506/StaySafe/blob/master/ScreenShot/Police%20ui%2019.png?raw=true "Police Side Features")
 
-![Reported Crime in Police Side](https://github.com/aminul7506/StaySafe/blob/master/ScreenShot/Reported%20crimes%20in%20police%20side%2020.png?raw=true "Reported Crime in POlice Side")
+![Reported Crime in Police Side](https://github.com/aminul7506/StaySafe/blob/master/ScreenShot/Reported%20crimes%20in%20police%20side%2020.png?raw=true "Reported Crime in Police Side")
 
-!Crime Report Details for Police](https://github.com/aminul7506/StaySafe/blob/master/ScreenShot/Report%20details%20for%20police%2021.png?raw=true "Crime report details for police")
+![Crime Report Details for Police from User](https://github.com/aminul7506/StaySafe/blob/master/ScreenShot/Report%20details%20for%20police%2021.png?raw=true "Crime Report Details for Police from User")
+
 
