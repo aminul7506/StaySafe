@@ -1,42 +1,23 @@
  
-It is an android application which is based on the idea of smart city, crime reporting,  
-crime alert and human security. There are two sides in the app: one is admin side and another one is user side.
+It is an android application which is based on the idea of smart city and human security. There are two sides in the
+application: one is admin or police side and another one is user side.
 
-I have used :
-1. google map API
-2. firebase cloud server for storing users' authentication data.
-3. shared preferences
-4. SQLite database
-5. Service 
-6. Intent Service
-7. Material Design
-8. Cloud messaging
-9. Navigation Bar
-10. Card View
-11. Recycler View and many more......
+Tools : Android Studio, Java, Firebase, Google Map API, SQLite, Push Notification
 
-There are two parts.
-(i) User Side.
-(ii) Police Side.
-User Side functionality:
-1. User will create account and then log in.
-2. User can report a crime report and the report will store in corresponding thana database.
-3. User can see the verified crimes in an area.
-4. User can see the nearby police station based on his current location and can call to thana in case of an emergency
-5. User can see nearby hospitals.
-6. If user now in a crime area , then he will get a notifications from server
-7. User can see crime statistics in his/her area.
-8. User can call his nearby friends in an area.
-9. User can see nearby friends location in google map.
-10. User can see all the cimes happened in his area.
-11. User can message to nearby police station if he/she is in danger now.
+User side functionalities : 
+1. User can report a crime from the app to one's nearby police station
+2. User can see the verified crimes in an area
+3. User can see the nearby police station based on his current location and can call or message to the police station immediately in case of an emergency or danger
+4. If user is now in a crime or danger area, user will get a notification
+5. User can see crime statistics and verified crimes in one's area
+6. User can see nearby friends' location in map and can call or message them
 
-Police Side Functionality:
-1. Police can log into his thana
-2. Police can see the reported crime in his area and can veirfy it.
-3. Police can track a thief
-4. Police can send message to a user or can contact with him/her.
-5. Police can see crimes statistics in his/her area.
+Admin or police side functionalities :
+1. Police can log into his/her station.
+2. Police can see the reported crimes in his area
+3. Police can call or send message to a user who has reported a crime and verify the crime
+4. Police can see crimes statistics in his/her area
+5. Police can set a area as crime or danger prone
 
 
 
